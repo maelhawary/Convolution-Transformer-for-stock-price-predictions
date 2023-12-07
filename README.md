@@ -7,7 +7,7 @@ This project is a pytorch implementation for pretraining a transformer-based mod
 
 # Results: 
 
-The model performs very well in traing, test, and validation dataset with MSE less than E-3
+The model performs very well in traning, test, and validation dataset with MSE less than E-3
 
 ## Dependency
 Python 3.8
