@@ -1,0 +1,26 @@
+def get_config():
+    return {
+        "dropout":0.1,
+        "head_size":32,
+        "batch_size": 256,
+        "number_of_layers":3,
+        "number_of_heads":12,
+        "eval_iter" : 50,
+        "d_att_weigh":264,
+        "d_FFN":264,
+        "num_epochs": 50000,
+        "lr": 10**-4,
+        "split_train":0.8,
+        "input_size":3,
+        "split_val":0.9,
+        "seq_len": 50,
+        "d_model": 512,
+        "datasource": 'opus_books',
+        "lang_src": "en",
+        "lang_tgt": "it",
+        "model_folder": "weights",
+        "model_basename": "tmodel_",
+        "preload": "latest",
+        "tokenizer_file": "tokenizer_{0}.json",
+        "experiment_name": "runs/tmodel"
+    }
