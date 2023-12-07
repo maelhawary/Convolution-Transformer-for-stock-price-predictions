@@ -17,7 +17,7 @@ def train(device,confi,dir,load_state,load_model):    #warnings.filterwarnings("
     #introduce_device
     #wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 
-    data = pd.read_csv('EURUSD60.csv', sep='\t', header=None, names=['DateTime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+    data = pd.read_csv('EURUSD60.csv')
 
     print(data.head())
     data=data['Close']#[1200:]
